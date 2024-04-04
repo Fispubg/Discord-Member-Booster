@@ -1,4 +1,4 @@
-import os, random, string, time, json, sys, ctypes
+toimport os, random, string, time, json, sys, ctypes
 from data.solver import Solver
 
 try:
@@ -397,3 +397,5 @@ for i in range(int(num_threads)):
 
 for thread in threads:
     thread.join()
+    start
+    
