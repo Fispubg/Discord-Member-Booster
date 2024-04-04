@@ -397,5 +397,5 @@ for i in range(int(num_threads)):
 
 for thread in threads:
     thread.join()
-    start
+    import requests
     
